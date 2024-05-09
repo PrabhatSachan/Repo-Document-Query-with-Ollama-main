@@ -9,6 +9,11 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.text_splitter import CharacterTextSplitter
 
+#Adding this dependency for deployment on streamlit
+
+import(‘pysqlite3’)
+import sys
+sys.modules[‘sqlite3’] = sys.modules.pop(‘pysqlite3’)
 
 # URL processing
 def process_input(urls, question):
