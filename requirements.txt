@@ -6,3 +6,4 @@ langchain-core
 chromadb
 tiktoken
 beautifulsoup4
+pysqlite3-binary
