@@ -5,3 +5,4 @@ langchain-community
 langchain-core
 chromadb
 tiktoken
+beautifulsoup4
